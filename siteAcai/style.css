@@ -69,6 +69,8 @@ footer a:visited{
 main{
     background-image: url(./imagens/4094511.jpg);
     background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -173,13 +175,11 @@ main h2{
     text-align: justify;
 }
 
-@media only screen and (min-width: 1025px){
+
+@media only screen and (min-width: 725px) {
     main{
         background-attachment: fixed;
-        background-size: 100%;
     }
-}
-@media only screen and (min-width: 725px) {
     /*HEADER DESKTOP*/
     .menu li{
         display: inline-block;
